@@ -1,7 +1,12 @@
-header {
+nav {
     display: flex;
     flex-direction: row;
 }
-#navigationBar {
-    display: inline-block;
+#barraNavegacao {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+ul li {
+    margin-left: 30px;
 }
